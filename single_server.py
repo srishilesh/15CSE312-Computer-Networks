@@ -1,3 +1,22 @@
+# import socket 
+# import sys
+
+# s = socket.socket()
+# hostname = '127.0.0.1'
+# port = 12345
+
+# s.bind(('',port))
+
+# s.listen(5)
+# print("Socket is listening")
+
+# while True:
+#     c,addr = s.accept()
+#     print("Connected with ",addr)
+#     c.send(str("Thanks for connectin").encode())
+#     c.close()
+
+
 import socket
 
 s = socket.socket()
